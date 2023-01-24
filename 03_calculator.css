@@ -1,0 +1,51 @@
+html {
+  background-image: radial-gradient(#201e40 0%, rgba(0, 0, 0, 0) 100%),
+    radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
+  background-attachment: fixed;
+}
+
+.btn input:hover {
+  opacity: 0.92;
+  cursor: pointer;
+}
+
+body {
+  width: 454px;
+  line-height: 3.3;
+  padding-top: 300px;
+  margin: auto;
+}
+form {
+  background-color: #46428300;
+  text-align: center;
+  /* padding: 5px; */
+}
+
+#display {
+  width: 80%;
+  height: 31px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.num {
+  font-size: 2rem;
+  background-color: rgb(245, 244, 244);
+  height: 55px;
+  width: 20%;
+  border-radius: 5px;
+  padding: 5px;
+}
+.oper {
+  font-size: 2rem;
+  background-color: rgba(50, 206, 19, 0.801);
+  height: 55px;
+  width: 20%;
+  border-radius: 5px;
+  padding: 5px;
+}
+#clear {
+  background-color: rgba(211, 16, 16, 0.705);
+}
+#equal {
+  background-color: rgba(255, 115, 0, 0.884);
+}
